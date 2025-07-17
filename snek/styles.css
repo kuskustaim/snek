@@ -1,0 +1,130 @@
+#background{
+    position: absolute;
+    width: 810px;
+    height: 570px;
+    background-color: rgb(75, 167, 253);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px solid rgb(14, 49, 166);
+}
+
+#snekuskus{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#start 
+{
+    background-color: #3b883e; /* green */
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 15px 30px;
+    font-size: 24px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #327635; /* darker on hover */
+}
+
+#StartMenu
+{
+    background-color: #4CAF50; /* green */
+    position: absolute;
+    width: 900px;
+    height: 630px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    border-radius: 20px;
+}
+
+#shadow{
+    position: absolute;
+    width: 900px;
+    height: 630px;
+    top: 51%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom right, rgb(66, 66, 66), rgba(44, 44, 44, 0.214));
+
+}
+
+#name{
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    background-color: #235525;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    width: 600px;
+    height: 270px;
+    font-size: 26px;
+}
+
+#BackgroudShadow{
+    position: absolute;
+    top: 52%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    width: 810px;
+    height: 570px;
+    background-image: linear-gradient(to bottom right, rgb(66, 66, 66), rgba(44, 44, 44, 0.214));
+
+}
+
+#CountBack{
+    position: absolute;
+    top: 7%;
+    left: 28%;
+
+    background-color: #38cb38;
+    width: 200px;
+    height: 50px;
+
+    border-radius: 5px; /* rounds everything */
+    overflow: hidden;    /* clips inner content */
+
+    /* simulate the thick border without shrinking the inside */
+    box-shadow: 0 0 0 26px rgb(46, 117, 48);
+}
+
+#CountShadow{
+    position: absolute;
+    top: 5%;
+    left: 27.35%;
+    width: 252px;
+    height: 102px;
+    background-image: linear-gradient(to bottom right, rgb(66, 66, 66), rgba(44, 44, 44, 0.214));
+    border-radius: 15px;
+}
+
+#Apple{
+    position: absolute;
+    top: 6.5%;
+    left: 27.6%;
+    width: 80px;
+    height: 80px;
+}
+
+#counter{
+    position: absolute;
+    top: 4.8%;
+    left: 30.5%;
+    font-size: 30px;
+}
